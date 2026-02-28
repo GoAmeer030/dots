@@ -1,0 +1,27 @@
+# General
+title = "You Got This!"
+
+# Background
+background-opacity = 0.80
+background-blur = true
+background=#000000
+
+# Window
+
+# None will remove the rounded corner, so only setting the title hidden
+# window-decoration = none
+macos-titlebar-style = hidden
+
+window-padding-x = 18
+window-padding-y = 18
+
+# Cursor
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+# Font
+font-size = 18
+font-thicken = true
+font-thicken-strength = 1
+adjust-cell-height = 1
