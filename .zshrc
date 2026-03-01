@@ -109,3 +109,13 @@ alias vimzsh="vim ~/.zshrc"
 if [ -f "$HOME/.zshrc.local" ]; then
 	source "$HOME/.zshrc.local"
 fi
+
+if [ -f "$HOME/.config/bin/general" ]; then
+	source "$HOME/.config/bin/general"
+fi
+
+# Lookup for default scripts
+addToPathFront $HOME/bin
+
+# Run tmux-sessionizer
+bindkey -s ^f "tmux-sessionizer\n"
